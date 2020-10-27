@@ -1,0 +1,14 @@
+﻿  Zad_2.c
+C:\Users\vedro\source\repos\SP_zad_2\SP_zad_2\Zad_2.c(6,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\vedro\source\repos\SP_zad_2\SP_zad_2\Zad_2.c : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+C:\Users\vedro\source\repos\SP_zad_2\SP_zad_2\Zad_2.c(42,22): warning C4047: 'function': 'Pozicija' differs in levels of indirection from 'Pozicija *'
+C:\Users\vedro\source\repos\SP_zad_2\SP_zad_2\Zad_2.c(42,22): warning C4024: 'unosPocetak': different types for formal and actual parameter 1
+C:\Users\vedro\source\repos\SP_zad_2\SP_zad_2\Zad_2.c(48,19): warning C4047: 'function': 'Pozicija' differs in levels of indirection from 'Pozicija *'
+C:\Users\vedro\source\repos\SP_zad_2\SP_zad_2\Zad_2.c(48,19): warning C4024: 'unosKraj': different types for formal and actual parameter 1
+C:\Users\vedro\source\repos\SP_zad_2\SP_zad_2\Zad_2.c(53,16): warning C4047: 'function': 'Pozicija' differs in levels of indirection from 'Pozicija *'
+C:\Users\vedro\source\repos\SP_zad_2\SP_zad_2\Zad_2.c(53,16): warning C4024: 'ispis': different types for formal and actual parameter 1
+C:\Users\vedro\source\repos\SP_zad_2\SP_zad_2\Zad_2.c(59,28): warning C4047: 'function': 'Pozicija' differs in levels of indirection from 'Pozicija *'
+C:\Users\vedro\source\repos\SP_zad_2\SP_zad_2\Zad_2.c(59,28): warning C4024: 'pronadji': different types for formal and actual parameter 1
+C:\Users\vedro\source\repos\SP_zad_2\SP_zad_2\Zad_2.c(69,18): warning C4047: 'function': 'Pozicija' differs in levels of indirection from 'Pozicija *'
+C:\Users\vedro\source\repos\SP_zad_2\SP_zad_2\Zad_2.c(69,18): warning C4024: 'izbrisi': different types for formal and actual parameter 1
+  SP_zad_2.vcxproj -> C:\Users\vedro\source\repos\SP_zad_2\Debug\SP_zad_2.exe
