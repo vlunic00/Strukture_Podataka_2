@@ -151,7 +151,7 @@ void ispis(Pozicija p) {
 	p = p->next;
 
 	printf("---------------------------\n");
-	while (p->next != NULL) {
+	while (p != NULL) {
 		printf("%s %s, %d\n", p->ime, p->prezime, p->god);
 		p = p->next;
 	}
