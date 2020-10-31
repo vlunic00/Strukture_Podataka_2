@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARININGS
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -6,9 +8,10 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define MAX 50
 
+struct osoba;
 typedef struct osoba* Pozicija;
 
-struct osoba {
+typedef struct osoba {
 	char ime[MAX];
 	char prezime[MAX];
 	int god;
@@ -24,8 +27,10 @@ void izbrisi(Pozicija, char[MAX]);
 
 int main() {
 
-	Pozicija head, p, trazen;
-	head = p = trazen = NULL;
+	_os head;
+	head.next = NULL;
+	Pozicija p = NULL;
+	Pozicija trazen = NULL;
 	char op = ' ';
 	char pom[MAX] = " ";
 
@@ -86,7 +91,7 @@ int main() {
 //------------------------------
 Pozicija novaOsoba() {
 	
-	Pozicija p;
+	Pozicija p = NULL;
 
 	p = (Pozicija)malloc(sizeof(struct osoba));
 	printf("Unesite ime, prezime i godinu rodjenja\n");
@@ -156,4 +161,5 @@ void ispis(Pozicija p) {
 		p = p->next;
 	}
 }
+
 
