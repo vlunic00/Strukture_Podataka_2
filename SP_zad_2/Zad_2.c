@@ -5,7 +5,7 @@
 #include<string.h>
 #include<ctype.h>
 
-#define _CRT_SECURE_NO_WARNINGS
+
 #define MAX 50
 
 struct osoba;
